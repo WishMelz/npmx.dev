@@ -34,7 +34,7 @@ jobs:
       - name: Build site
         run: pnpm build
         env:
-          NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
+          NUXT_SESSION_PASSWORD: ${{ secrets.NUXT_SESSION_PASSWORD }}
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
