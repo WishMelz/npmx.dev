@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   sync:
@@ -18,16 +19,38 @@ jobs:
           fetch-depth: 0
           ref: main
 
-      - name: Configure git identity (required for merge commits)
+      - name: Configure git identity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Sync from upstream (merge)
+      - name: Fetch upstream
         run: |
           set -e
           git remote add upstream https://github.com/npmx-dev/npmx.dev.git || true
           git fetch --prune upstream
-          git checkout main
-          git merge --no-edit upstream/main
-          git push origin main
+
+      - name: Create sync branch
+        run: |
+          set -e
+          git checkout -B sync-upstream upstream/main
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: sync upstream"
+          title: "chore: sync upstream"
+          body: "Automated sync from upstream/main."
+          base: main
+          branch: sync-upstream
+          delete-branch: true
+
+      - name: Enable auto-merge (if PR created)
+        if: steps.cpr.outputs.pull-request-number != ''
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: merge
