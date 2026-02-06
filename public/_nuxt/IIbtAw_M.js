@@ -1,0 +1,1 @@
+import{cn as e,it as t,ot as n}from"./Bv7AjlnL.js";function r(r={}){let i=n(),a=t().path||`/`;if(i.payload.path===a){let t=e(!1);t.value=!0}}function i(e,t={},n={}){return r({...n,component:e,props:t})}export{i as t};

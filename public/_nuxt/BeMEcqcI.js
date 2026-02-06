@@ -1,0 +1,1 @@
+async function e(e,t,n=10){let r=Array.from({length:e.length}),i=0;async function a(){for(;i<e.length;){let n=i++;r[n]=await t(e[n],n)}}let o=Array.from({length:Math.min(n,e.length)},()=>a());return await Promise.all(o),r}export{e as t};
