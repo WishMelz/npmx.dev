@@ -1,0 +1,6583 @@
+var pt_BR_default = {
+	"$schema": {
+		"t": 0,
+		"b": {
+			"t": 2,
+			"i": [{ "t": 3 }],
+			"s": "../schema.json"
+		}
+	},
+	"seo": { "home": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "npmx - Navegador de Pacotes para o Registro npm"
+			}
+		},
+		"description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Um navegador melhor para o registro npm. Pesquise, navegue e explore pacotes com uma interface moderna."
+			}
+		}
+	} },
+	"built_at": {
+		"t": 0,
+		"b": {
+			"t": 2,
+			"i": [{
+				"t": 3,
+				"v": "construído "
+			}, {
+				"t": 5,
+				"i": 0
+			}]
+		}
+	},
+	"alt_logo": {
+		"t": 0,
+		"b": {
+			"t": 2,
+			"i": [{ "t": 3 }],
+			"s": "logo npmx"
+		}
+	},
+	"tagline": {
+		"t": 0,
+		"b": {
+			"t": 2,
+			"i": [{ "t": 3 }],
+			"s": "um navegador melhor para o registro npm"
+		}
+	},
+	"non_affiliation_disclaimer": {
+		"t": 0,
+		"b": {
+			"t": 2,
+			"i": [{ "t": 3 }],
+			"s": "não é afiliado com npm, Inc."
+		}
+	},
+	"trademark_disclaimer": {
+		"t": 0,
+		"b": {
+			"t": 2,
+			"i": [{ "t": 3 }],
+			"s": "npm é uma marca registrada da npm, Inc. Este site não é afiliado com npm, Inc."
+		}
+	},
+	"footer": {
+		"about": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "sobre"
+			}
+		},
+		"docs": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "documentação"
+			}
+		},
+		"source": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "código-fonte"
+			}
+		},
+		"social": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "redes sociais"
+			}
+		},
+		"chat": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "chat"
+			}
+		}
+	},
+	"shortcuts": { "section": {} },
+	"search": {
+		"label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar pacotes npm"
+			}
+		},
+		"placeholder": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "pesquisar pacotes..."
+			}
+		},
+		"button": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "pesquisar"
+			}
+		},
+		"searching": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisando..."
+			}
+		},
+		"found_packages": {
+			"t": 0,
+			"b": {
+				"t": 1,
+				"c": [
+					{
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Nenhum pacote encontrado"
+					},
+					{
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "1 pacote encontrado"
+					},
+					{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacotes encontrados"
+						}]
+					}
+				]
+			}
+		},
+		"updating": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "(atualizando...)"
+			}
+		},
+		"no_results": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "Nenhum pacote encontrado para \""
+					},
+					{
+						"t": 4,
+						"k": "query"
+					},
+					{
+						"t": 3,
+						"v": "\""
+					}
+				]
+			}
+		},
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "pesquisar"
+			}
+		},
+		"not_taken": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{
+					"t": 4,
+					"k": "name"
+				}, {
+					"t": 3,
+					"v": " não está em uso"
+				}]
+			}
+		},
+		"claim_prompt": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Reivindicar este nome de pacote no npm"
+			}
+		},
+		"claim_button": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "Reivindicar \""
+					},
+					{
+						"t": 4,
+						"k": "name"
+					},
+					{
+						"t": 3,
+						"v": "\""
+					}
+				]
+			}
+		},
+		"want_to_claim": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Deseja reivindicar este nome de pacote?"
+			}
+		},
+		"start_typing": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Comece a digitar para pesquisar pacotes"
+			}
+		},
+		"exact_match": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "exato"
+			}
+		},
+		"suggestion": {
+			"user": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "usuário"
+				}
+			},
+			"org": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "organização"
+				}
+			},
+			"view_user_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver pacotes deste usuário"
+				}
+			},
+			"view_org_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver pacotes desta organização"
+				}
+			}
+		}
+	},
+	"nav": {
+		"main_navigation": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Principal"
+			}
+		},
+		"popular_packages": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pacotes populares"
+			}
+		},
+		"settings": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "configurações"
+			}
+		},
+		"compare": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "comparar"
+			}
+		},
+		"back": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "voltar"
+			}
+		},
+		"menu": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Menu"
+			}
+		},
+		"mobile_menu": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Menu de navegação"
+			}
+		},
+		"open_menu": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Abrir menu"
+			}
+		},
+		"links": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Links"
+			}
+		},
+		"tap_to_search": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Toque para pesquisar"
+			}
+		}
+	},
+	"settings": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "configurações"
+			}
+		},
+		"tagline": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "personalize sua experiência npmx"
+			}
+		},
+		"meta_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Customize sua experiência npmx.dev com preferências de tema, idioma e exibição."
+			}
+		},
+		"sections": {
+			"appearance": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Aparência"
+				}
+			},
+			"display": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Exibição"
+				}
+			},
+			"language": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Idioma"
+				}
+			}
+		},
+		"data_source": {},
+		"relative_dates": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Datas relativas"
+			}
+		},
+		"include_types": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{ "t": 3 },
+					{ "t": 9 },
+					{ "t": 3 }
+				],
+				"s": "Incluir @types na instalação"
+			}
+		},
+		"include_types_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{ "t": 3 },
+					{ "t": 9 },
+					{ "t": 3 }
+				],
+				"s": "Adicionar pacote @types aos comandos de instalação para pacotes sem tipo"
+			}
+		},
+		"hide_platform_packages": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ocultar pacotes específicos de plataforma na pesquisa"
+			}
+		},
+		"hide_platform_packages_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{ "t": 3 },
+					{ "t": 9 },
+					{ "t": 3 }
+				],
+				"s": "Ocultar pacotes binários nativos como @esbuild/linux-x64 dos resultados"
+			}
+		},
+		"theme": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Tema"
+			}
+		},
+		"theme_light": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Claro"
+			}
+		},
+		"theme_dark": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Escuro"
+			}
+		},
+		"theme_system": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Sistema"
+			}
+		},
+		"language": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Idioma"
+			}
+		},
+		"help_translate": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ajude a traduzir npmx"
+			}
+		},
+		"accent_colors": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Cores de destaque"
+			}
+		},
+		"clear_accent": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Limpar cor de destaque"
+			}
+		},
+		"translation_progress": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Progresso de tradução"
+			}
+		}
+	},
+	"i18n": {
+		"missing_keys": {
+			"t": 0,
+			"b": {
+				"t": 1,
+				"c": [{
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " tradução ausente"
+					}]
+				}, {
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " traduções ausentes"
+					}]
+				}]
+			}
+		},
+		"copy_keys": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Copiar chaves"
+			}
+		},
+		"show_more_keys": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "Mostrar "
+					},
+					{
+						"t": 4,
+						"k": "count"
+					},
+					{
+						"t": 3,
+						"v": " mais..."
+					}
+				]
+			}
+		},
+		"contribute_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ajude a melhorar esta tradução adicionando as chaves ausentes."
+			}
+		},
+		"edit_on_github": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Editar no GitHub"
+			}
+		},
+		"view_guide": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Guia de tradução"
+			}
+		}
+	},
+	"common": {
+		"loading": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Carregando..."
+			}
+		},
+		"loading_more": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Carregando mais..."
+			}
+		},
+		"loading_packages": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Carregando pacotes..."
+			}
+		},
+		"end_of_results": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Fim dos resultados"
+			}
+		},
+		"try_again": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Tente novamente"
+			}
+		},
+		"close": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Fechar"
+			}
+		},
+		"retry": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Repetir"
+			}
+		},
+		"copy": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "copiar"
+			}
+		},
+		"copied": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "copiado!"
+			}
+		},
+		"skip_link": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pular para o conteúdo principal"
+			}
+		},
+		"warnings": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Avisos:"
+			}
+		},
+		"go_back_home": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Voltar para a página inicial"
+			}
+		},
+		"view_on_npm": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "visualizar no npm"
+			}
+		},
+		"per_week": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "/ semana"
+			}
+		},
+		"vanity_downloads_hint": {
+			"t": 0,
+			"b": {
+				"t": 1,
+				"c": [
+					{
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Número de vaidade: nenhum pacote exibido"
+					},
+					{
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Número de vaidade: para o pacote exibido"
+					},
+					{
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "Número de vaidade: Soma de "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacotes exibidos"
+							}
+						]
+					}
+				]
+			}
+		},
+		"sort": {
+			"name": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nome"
+				}
+			},
+			"role": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "função"
+				}
+			},
+			"members": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "membros"
+				}
+			}
+		},
+		"scroll_to_top": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Rolar para o topo"
+			}
+		}
+	},
+	"package": {
+		"not_found": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pacote não encontrado"
+			}
+		},
+		"not_found_message": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "O pacote não pôde ser encontrado."
+			}
+		},
+		"no_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Nenhuma descrição fornecida"
+			}
+		},
+		"not_latest": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "(não é a mais recente)"
+			}
+		},
+		"verified_provenance": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Proveniência verificada"
+			}
+		},
+		"view_permalink": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ver link permanente para esta versão"
+			}
+		},
+		"navigation": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pacote"
+			}
+		},
+		"copy_name": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Copiar nome do pacote"
+			}
+		},
+		"deprecation": {
+			"package": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Este pacote foi descontinuado."
+				}
+			},
+			"version": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Esta versão foi descontinuada."
+				}
+			},
+			"no_reason": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum motivo fornecido"
+				}
+			}
+		},
+		"replacement": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Você pode não precisar desta dependência."
+				}
+			},
+			"native": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Isso pode ser substituído por "
+						},
+						{
+							"t": 4,
+							"k": "replacement"
+						},
+						{
+							"t": 3,
+							"v": ", disponível desde Node "
+						},
+						{
+							"t": 4,
+							"k": "nodeVersion"
+						},
+						{
+							"t": 3,
+							"v": "."
+						}
+					]
+				}
+			},
+			"simple": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "A "
+						},
+						{
+							"t": 4,
+							"k": "community"
+						},
+						{
+							"t": 3,
+							"v": " marcou este pacote como redundante, com o conselho: "
+						},
+						{
+							"t": 4,
+							"k": "replacement"
+						},
+						{
+							"t": 3,
+							"v": "."
+						}
+					]
+				}
+			},
+			"documented": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "A "
+						},
+						{
+							"t": 4,
+							"k": "community"
+						},
+						{
+							"t": 3,
+							"v": " marcou este pacote como tendo alternativas mais performáticas."
+						}
+					]
+				}
+			},
+			"none": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Este pacote foi marcado como não mais necessário, e sua funcionalidade provavelmente está disponível nativamente em todas as engines."
+				}
+			},
+			"learn_more": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Saiba mais"
+				}
+			},
+			"mdn": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "MDN"
+				}
+			},
+			"community": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "comunidade"
+				}
+			}
+		},
+		"stats": {
+			"license": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Licença"
+				}
+			},
+			"deps": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Deps"
+				}
+			},
+			"install_size": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Tamanho de Instalação"
+				}
+			},
+			"vulns": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Vulnerabilidades"
+				}
+			},
+			"view_dependency_graph": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver gráfico de dependências"
+				}
+			},
+			"inspect_dependency_tree": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Inspecionar árvore de dependências"
+				}
+			},
+			"size_tooltip": {
+				"unpacked": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "size"
+						}, {
+							"t": 3,
+							"v": " tamanho descompactado (este pacote)"
+						}]
+					}
+				},
+				"total": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "size"
+							},
+							{
+								"t": 3,
+								"v": " tamanho total descompactado (incluindo todas as "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " dependências para linux-x64)"
+							}
+						]
+					}
+				}
+			}
+		},
+		"skills": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Habilidades do Agente"
+				}
+			},
+			"skills_available": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " habilidade disponível"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " habilidades disponíveis"
+						}]
+					}]
+				}
+			},
+			"compatible_with": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Compatível com "
+					}, {
+						"t": 4,
+						"k": "tool"
+					}]
+				}
+			},
+			"install": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Instalar"
+				}
+			},
+			"installation_method": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Método de Instalação"
+				}
+			},
+			"learn_more": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Saiba mais"
+				}
+			},
+			"available_skills": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Habilidades Disponíveis"
+				}
+			},
+			"click_to_expand": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Clique para expandir"
+				}
+			},
+			"no_description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Sem descrição"
+				}
+			},
+			"file_counts": {
+				"scripts": {
+					"t": 0,
+					"b": {
+						"t": 1,
+						"c": [{
+							"t": 2,
+							"i": [{
+								"t": 4,
+								"k": "count"
+							}, {
+								"t": 3,
+								"v": " script"
+							}]
+						}, {
+							"t": 2,
+							"i": [{
+								"t": 4,
+								"k": "count"
+							}, {
+								"t": 3,
+								"v": " scripts"
+							}]
+						}]
+					}
+				},
+				"refs": {
+					"t": 0,
+					"b": {
+						"t": 1,
+						"c": [{
+							"t": 2,
+							"i": [{
+								"t": 4,
+								"k": "count"
+							}, {
+								"t": 3,
+								"v": " ref"
+							}]
+						}, {
+							"t": 2,
+							"i": [{
+								"t": 4,
+								"k": "count"
+							}, {
+								"t": 3,
+								"v": " refs"
+							}]
+						}]
+					}
+				},
+				"assets": {
+					"t": 0,
+					"b": {
+						"t": 1,
+						"c": [{
+							"t": 2,
+							"i": [{
+								"t": 4,
+								"k": "count"
+							}, {
+								"t": 3,
+								"v": " asset"
+							}]
+						}, {
+							"t": 2,
+							"i": [{
+								"t": 4,
+								"k": "count"
+							}, {
+								"t": 3,
+								"v": " assets"
+							}]
+						}]
+					}
+				}
+			},
+			"view_source": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver código-fonte"
+				}
+			}
+		},
+		"links": {
+			"repo": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "repositório"
+				}
+			},
+			"homepage": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "página inicial"
+				}
+			},
+			"issues": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "problemas"
+				}
+			},
+			"jsr": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "jsr"
+				}
+			},
+			"code": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "código"
+				}
+			},
+			"docs": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "documentação"
+				}
+			},
+			"fund": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "financiar"
+				}
+			},
+			"compare": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "comparar"
+				}
+			}
+		},
+		"likes": {},
+		"docs": {
+			"not_available": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Documentação não disponível"
+				}
+			},
+			"not_available_detail": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Não conseguimos gerar documentação para esta versão."
+				}
+			}
+		},
+		"get_started": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Comece agora"
+				}
+			},
+			"pm_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Gerenciador de pacotes"
+				}
+			},
+			"copy_command": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Copiar comando de instalação"
+				}
+			},
+			"view_types": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Ver "
+					}, {
+						"t": 4,
+						"k": "package"
+					}]
+				}
+			}
+		},
+		"create": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Criar novo projeto"
+				}
+			},
+			"copy_command": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Copiar comando de criação"
+				}
+			}
+		},
+		"run": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Executar"
+				}
+			},
+			"locally": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Executar localmente"
+				}
+			}
+		},
+		"readme": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Readme"
+				}
+			},
+			"no_readme": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "README não disponível."
+				}
+			},
+			"view_on_github": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver no GitHub"
+				}
+			},
+			"callout": {}
+		},
+		"provenance_section": {},
+		"security_downgrade": {},
+		"keywords_title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Palavras-chave"
+			}
+		},
+		"compatibility": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Compatibilidade"
+			}
+		},
+		"card": {
+			"publisher": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Publicador"
+				}
+			},
+			"weekly_downloads": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads semanais"
+				}
+			},
+			"keywords": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Palavras-chave"
+				}
+			},
+			"license": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Licença"
+				}
+			}
+		},
+		"versions": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Versões"
+				}
+			},
+			"collapse": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Recolher "
+					}, {
+						"t": 4,
+						"k": "tag"
+					}]
+				}
+			},
+			"expand": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Expandir "
+					}, {
+						"t": 4,
+						"k": "tag"
+					}]
+				}
+			},
+			"collapse_other": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Recolher outras versões"
+				}
+			},
+			"expand_other": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Expandir outras versões"
+				}
+			},
+			"collapse_major": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Recolher versão principal "
+					}, {
+						"t": 4,
+						"k": "major"
+					}]
+				}
+			},
+			"expand_major": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Expandir versão principal "
+					}, {
+						"t": 4,
+						"k": "major"
+					}]
+				}
+			},
+			"other_versions": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Outras versões"
+				}
+			},
+			"more_tagged": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " mais marcadas"
+					}]
+				}
+			},
+			"all_covered": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Todas as versões estão cobertas pelas tags acima"
+				}
+			},
+			"deprecated_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "version"
+					}, {
+						"t": 3,
+						"v": " (descontinuada)"
+					}]
+				}
+			},
+			"view_all": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "Ver "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " versão"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "Ver todas as "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " versões"
+							}
+						]
+					}]
+				}
+			}
+		},
+		"dependencies": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Dependências ("
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": ")"
+						}
+					]
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Dependências do pacote"
+				}
+			},
+			"show_all": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " dep"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar todas as "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " deps"
+							}
+						]
+					}]
+				}
+			},
+			"optional": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "opcional"
+				}
+			},
+			"view_vulnerabilities": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver vulnerabilidades"
+				}
+			},
+			"outdated_major": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " versão principal desatualizada (mais recente: "
+							},
+							{
+								"t": 4,
+								"k": "latest"
+							},
+							{
+								"t": 3,
+								"v": ")"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " versões principais desatualizadas (mais recente: "
+							},
+							{
+								"t": 4,
+								"k": "latest"
+							},
+							{
+								"t": 3,
+								"v": ")"
+							}
+						]
+					}]
+				}
+			},
+			"outdated_minor": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " versão secundária desatualizada (mais recente: "
+							},
+							{
+								"t": 4,
+								"k": "latest"
+							},
+							{
+								"t": 3,
+								"v": ")"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " versões secundárias desatualizadas (mais recente: "
+							},
+							{
+								"t": 4,
+								"k": "latest"
+							},
+							{
+								"t": 3,
+								"v": ")"
+							}
+						]
+					}]
+				}
+			},
+			"outdated_patch": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Atualização de patch disponível (mais recente: "
+						},
+						{
+							"t": 4,
+							"k": "latest"
+						},
+						{
+							"t": 3,
+							"v": ")"
+						}
+					]
+				}
+			}
+		},
+		"peer_dependencies": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Dependências Pares ("
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": ")"
+						}
+					]
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Dependências pares do pacote"
+				}
+			},
+			"show_all": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " dep par"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar todas as "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " deps pares"
+							}
+						]
+					}]
+				}
+			}
+		},
+		"optional_dependencies": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Dependências Opcionais ("
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": ")"
+						}
+					]
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Dependências opcionais do pacote"
+				}
+			},
+			"show_all": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " dep opcional"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar todas as "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " deps opcionais"
+							}
+						]
+					}]
+				}
+			}
+		},
+		"maintainers": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mantenedores"
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mantenedores do pacote"
+				}
+			},
+			"you": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "(você)"
+				}
+			},
+			"via": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "via "
+					}, {
+						"t": 4,
+						"k": "teams"
+					}]
+				}
+			},
+			"remove_owner": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Remover "
+						},
+						{
+							"t": 4,
+							"k": "name"
+						},
+						{
+							"t": 3,
+							"v": " como proprietário"
+						}
+					]
+				}
+			},
+			"username_to_add": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome de usuário para adicionar como proprietário"
+				}
+			},
+			"username_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nome de usuário..."
+				}
+			},
+			"add_button": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "adicionar"
+				}
+			},
+			"cancel_add": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Cancelar adição de proprietário"
+				}
+			},
+			"add_owner": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "+ Adicionar proprietário"
+				}
+			},
+			"show_more": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "(mostrar "
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": " mais)"
+						}
+					]
+				}
+			},
+			"show_less": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "(mostrar menos)"
+				}
+			}
+		},
+		"trends": {
+			"granularity": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Granularidade"
+				}
+			},
+			"granularity_daily": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Diária"
+				}
+			},
+			"granularity_weekly": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Semanal"
+				}
+			},
+			"granularity_monthly": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mensal"
+				}
+			},
+			"granularity_yearly": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Anual"
+				}
+			},
+			"start_date": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Início"
+				}
+			},
+			"end_date": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Fim"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando..."
+				}
+			},
+			"date_range": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 4,
+							"k": "start"
+						},
+						{
+							"t": 3,
+							"v": " a "
+						},
+						{
+							"t": 4,
+							"k": "end"
+						}
+					]
+				}
+			},
+			"date_range_multiline": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 4,
+							"k": "start"
+						},
+						{
+							"t": 3,
+							"v": "\npara "
+						},
+						{
+							"t": 4,
+							"k": "end"
+						}
+					]
+				}
+			},
+			"download_file": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Baixar "
+					}, {
+						"t": 4,
+						"k": "fileType"
+					}]
+				}
+			},
+			"toggle_annotator": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Alternar anotador"
+				}
+			},
+			"items": {}
+		},
+		"downloads": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads Semanais"
+				}
+			},
+			"analyze": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Analisar downloads"
+				}
+			},
+			"modal_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads"
+				}
+			}
+		},
+		"install_scripts": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Scripts de Instalação"
+				}
+			},
+			"script_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "(script)"
+				}
+			},
+			"npx_packages": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacote npx"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacotes npx"
+						}]
+					}]
+				}
+			},
+			"currently": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "atualmente "
+					}, {
+						"t": 4,
+						"k": "version"
+					}]
+				}
+			}
+		},
+		"playgrounds": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Experimente"
+				}
+			},
+			"choose": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "escolher playground"
+				}
+			}
+		},
+		"metrics": {
+			"esm": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "ES Modules suportados"
+				}
+			},
+			"cjs": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "CommonJS suportado"
+				}
+			},
+			"no_esm": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Sem suporte a ES Modules"
+				}
+			},
+			"types_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Tipos"
+				}
+			},
+			"types_included": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Tipos inclusos"
+				}
+			},
+			"types_available": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Tipos disponíveis via "
+					}, {
+						"t": 4,
+						"k": "package"
+					}]
+				}
+			},
+			"no_types": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Sem tipos TypeScript"
+				}
+			}
+		},
+		"license": {
+			"view_spdx": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver texto da licença no SPDX"
+				}
+			},
+			"none": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhuma"
+				}
+			}
+		},
+		"vulnerabilities": {
+			"tree_found": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "vulns"
+							},
+							{
+								"t": 3,
+								"v": " vulnerabilidade em "
+							},
+							{
+								"t": 4,
+								"k": "packages"
+							},
+							{
+								"t": 3,
+								"v": "/"
+							},
+							{
+								"t": 4,
+								"k": "total"
+							},
+							{
+								"t": 3,
+								"v": " pacotes"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "vulns"
+							},
+							{
+								"t": 3,
+								"v": " vulnerabilidades em "
+							},
+							{
+								"t": 4,
+								"k": "packages"
+							},
+							{
+								"t": 3,
+								"v": "/"
+							},
+							{
+								"t": 4,
+								"k": "total"
+							},
+							{
+								"t": 3,
+								"v": " pacotes"
+							}
+						]
+					}]
+				}
+			},
+			"show_all_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "mostrar todos os "
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": " pacotes afetados"
+						}
+					]
+				}
+			},
+			"path": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "caminho"
+				}
+			},
+			"more": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "+"
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": " mais"
+						}
+					]
+				}
+			},
+			"packages_failed": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacote não pôde ser verificado"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacotes não puderam ser verificados"
+						}]
+					}]
+				}
+			},
+			"scan_failed": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Não foi possível verificar vulnerabilidades"
+				}
+			},
+			"severity": {
+				"critical": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "crítica"
+					}
+				},
+				"high": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "alta"
+					}
+				},
+				"moderate": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "moderada"
+					}
+				},
+				"low": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "baixa"
+					}
+				}
+			}
+		},
+		"deprecated": {
+			"label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Descontinuado"
+				}
+			},
+			"tree_found": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " dependência descontinuada"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " dependências descontinuadas"
+						}]
+					}]
+				}
+			},
+			"show_all": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacote descontinuado"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 3,
+								"v": "mostrar todos os "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacotes descontinuados"
+							}
+						]
+					}]
+				}
+			}
+		},
+		"access": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Acesso da Equipe"
+				}
+			},
+			"refresh": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Atualizar acesso da equipe"
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Lista de acesso da equipe"
+				}
+			},
+			"owner": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "proprietário"
+				}
+			},
+			"rw": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "rw"
+				}
+			},
+			"ro": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "ro"
+				}
+			},
+			"revoke_access": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Revogar acesso de "
+					}, {
+						"t": 4,
+						"k": "name"
+					}]
+				}
+			},
+			"no_access": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum acesso de equipe configurado"
+				}
+			},
+			"select_team_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Selecionar equipe"
+				}
+			},
+			"loading_teams": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando equipes..."
+				}
+			},
+			"select_team": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Selecionar equipe"
+				}
+			},
+			"permission_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nível de permissão"
+				}
+			},
+			"permission": {
+				"read_only": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "somente leitura"
+					}
+				},
+				"read_write": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "leitura-escrita"
+					}
+				}
+			},
+			"grant_button": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "conceder"
+				}
+			},
+			"cancel_grant": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Cancelar concessão de acesso"
+				}
+			},
+			"grant_access": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "+ Conceder acesso da equipe"
+				}
+			}
+		},
+		"list": {
+			"filter_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar pacotes"
+				}
+			},
+			"filter_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar pacotes..."
+				}
+			},
+			"sort_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ordenar pacotes"
+				}
+			},
+			"showing_count": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Mostrando "
+						},
+						{
+							"t": 4,
+							"k": "filtered"
+						},
+						{
+							"t": 3,
+							"v": " de "
+						},
+						{
+							"t": 4,
+							"k": "total"
+						},
+						{
+							"t": 3,
+							"v": " pacotes"
+						}
+					]
+				}
+			}
+		},
+		"skeleton": {
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando detalhes do pacote"
+				}
+			},
+			"maintainers": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mantenedores"
+				}
+			},
+			"keywords": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Palavras-chave"
+				}
+			},
+			"versions": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Versões"
+				}
+			},
+			"dependencies": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Dependências"
+				}
+			}
+		},
+		"sort": {
+			"downloads": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mais baixados"
+				}
+			},
+			"name_asc": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome (A-Z)"
+				}
+			},
+			"name_desc": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome (Z-A)"
+				}
+			}
+		},
+		"size": {}
+	},
+	"connector": { "modal": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conector Local"
+			}
+		},
+		"contributor_badge": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Apenas contribuidores"
+			}
+		},
+		"contributor_notice": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "O conector ainda não foi publicado no npm. Veja o "
+					},
+					{
+						"t": 4,
+						"k": "link"
+					},
+					{
+						"t": 3,
+						"v": " para saber como executar localmente."
+					}
+				]
+			}
+		},
+		"contributor_link": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "guia de contribuição"
+			}
+		},
+		"connected": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectado"
+			}
+		},
+		"connected_as_user": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{
+					"t": 3,
+					"v": "Conectado como ~"
+				}, {
+					"t": 4,
+					"k": "user"
+				}]
+			}
+		},
+		"connected_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Agora você pode gerenciar pacotes e organizações a partir da interface web."
+			}
+		},
+		"disconnect": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Desconectar"
+			}
+		},
+		"run_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Execute o conector na sua máquina para ativar recursos de administrador."
+			}
+		},
+		"copy_command": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Copiar comando"
+			}
+		},
+		"copied": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Copiado"
+			}
+		},
+		"paste_token": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Em seguida, cole o token abaixo para conectar:"
+			}
+		},
+		"token_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Token"
+			}
+		},
+		"token_placeholder": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "cole o token aqui..."
+			}
+		},
+		"advanced": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Opções avançadas"
+			}
+		},
+		"port_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Porta"
+			}
+		},
+		"warning": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "AVISO"
+			}
+		},
+		"warning_text": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Isso permite que npmx acesse seu CLI do npm. Conecte-se apenas a sites em que você confia."
+			}
+		},
+		"connect": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectar"
+			}
+		},
+		"connecting": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectando..."
+			}
+		}
+	} },
+	"operations": { "queue": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Fila de Operações"
+			}
+		},
+		"clear_all": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "limpar tudo"
+			}
+		},
+		"refresh": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Atualizar operações"
+			}
+		},
+		"empty": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Nenhuma operação na fila"
+			}
+		},
+		"empty_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Adicione operações a partir das páginas de pacote ou organização"
+			}
+		},
+		"active_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Operações ativas"
+			}
+		},
+		"otp_required": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "OTP obrigatório"
+			}
+		},
+		"otp_prompt": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Digite OTP para continuar"
+			}
+		},
+		"otp_placeholder": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Digite o código OTP..."
+			}
+		},
+		"otp_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Senha de um único uso"
+			}
+		},
+		"retry_otp": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Tentar novamente com OTP"
+			}
+		},
+		"retrying": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Tentando novamente..."
+			}
+		},
+		"approve_operation": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Aprovar operação"
+			}
+		},
+		"remove_operation": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Remover operação"
+			}
+		},
+		"approve_all": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Aprovar Tudo"
+			}
+		},
+		"execute": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Executar"
+			}
+		},
+		"executing": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Executando..."
+			}
+		},
+		"log": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Log"
+			}
+		},
+		"log_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Log de operações concluídas"
+			}
+		},
+		"remove_from_log": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Remover do log"
+			}
+		}
+	} },
+	"org": {
+		"teams": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Equipes"
+				}
+			},
+			"refresh": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Atualizar equipes"
+				}
+			},
+			"filter_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar equipes"
+				}
+			},
+			"filter_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar equipes..."
+				}
+			},
+			"sort_by": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ordenar por"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando equipes..."
+				}
+			},
+			"no_teams": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhuma equipe encontrada"
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Equipes da organização"
+				}
+			},
+			"delete_team": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Excluir equipe "
+					}, {
+						"t": 4,
+						"k": "name"
+					}]
+				}
+			},
+			"member_count": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " membro"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " membros"
+						}]
+					}]
+				}
+			},
+			"members_of": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Membros de "
+					}, {
+						"t": 4,
+						"k": "team"
+					}]
+				}
+			},
+			"no_members": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum membro"
+				}
+			},
+			"remove_user": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Remover "
+						},
+						{
+							"t": 4,
+							"k": "user"
+						},
+						{
+							"t": 3,
+							"v": " da equipe"
+						}
+					]
+				}
+			},
+			"username_to_add": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Nome de usuário para adicionar a "
+					}, {
+						"t": 4,
+						"k": "team"
+					}]
+				}
+			},
+			"username_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nome de usuário..."
+				}
+			},
+			"add_button": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "adicionar"
+				}
+			},
+			"cancel_add_user": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Cancelar adição de usuário"
+				}
+			},
+			"add_member": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "+ Adicionar membro"
+				}
+			},
+			"team_name_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome da equipe"
+				}
+			},
+			"team_name_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nome-da-equipe..."
+				}
+			},
+			"create_button": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "criar"
+				}
+			},
+			"no_match": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Nenhuma equipe corresponde a \""
+						},
+						{
+							"t": 4,
+							"k": "query"
+						},
+						{
+							"t": 3,
+							"v": "\""
+						}
+					]
+				}
+			},
+			"cancel_create": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Cancelar criação de equipe"
+				}
+			},
+			"create_team": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "+ Criar equipe"
+				}
+			}
+		},
+		"members": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Membros"
+				}
+			},
+			"refresh": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Atualizar membros"
+				}
+			},
+			"filter_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar membros"
+				}
+			},
+			"filter_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar membros..."
+				}
+			},
+			"filter_by_role": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar por função"
+				}
+			},
+			"filter_by_team": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Filtrar por equipe"
+				}
+			},
+			"all_teams": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "todas as equipes"
+				}
+			},
+			"sort_by": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ordenar por"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando membros..."
+				}
+			},
+			"no_members": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum membro encontrado"
+				}
+			},
+			"list_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Membros da organização"
+				}
+			},
+			"change_role_for": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Alterar função para "
+					}, {
+						"t": 4,
+						"k": "name"
+					}]
+				}
+			},
+			"remove_from_org": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Remover "
+						},
+						{
+							"t": 4,
+							"k": "name"
+						},
+						{
+							"t": 3,
+							"v": " da organização"
+						}
+					]
+				}
+			},
+			"view_team": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Ver equipe "
+					}, {
+						"t": 4,
+						"k": "team"
+					}]
+				}
+			},
+			"no_match": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum membro corresponde aos seus filtros"
+				}
+			},
+			"username_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome de usuário"
+				}
+			},
+			"username_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nome de usuário..."
+				}
+			},
+			"role_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Função"
+				}
+			},
+			"role": {
+				"all": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "todos"
+					}
+				},
+				"developer": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "desenvolvedor"
+					}
+				},
+				"admin": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "administrador"
+					}
+				},
+				"owner": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "proprietário"
+					}
+				}
+			},
+			"team_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Equipe"
+				}
+			},
+			"no_team": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "sem equipe"
+				}
+			},
+			"add_button": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "adicionar"
+				}
+			},
+			"cancel_add": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Cancelar adição de membro"
+				}
+			},
+			"add_member": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "+ Adicionar membro"
+				}
+			}
+		},
+		"public_packages": {
+			"t": 0,
+			"b": {
+				"t": 1,
+				"c": [{
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " pacote público"
+					}]
+				}, {
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " pacotes públicos"
+					}]
+				}]
+			}
+		},
+		"page": {
+			"packages_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pacotes"
+				}
+			},
+			"members_tab": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Membros"
+				}
+			},
+			"teams_tab": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Equipes"
+				}
+			},
+			"no_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum pacote público encontrado para"
+				}
+			},
+			"no_packages_hint": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Esta organização pode não existir ou não tem pacotes públicos."
+				}
+			},
+			"failed_to_load": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Falha ao carregar pacotes da organização"
+				}
+			},
+			"no_match": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Nenhum pacote corresponde a \""
+						},
+						{
+							"t": 4,
+							"k": "query"
+						},
+						{
+							"t": 3,
+							"v": "\""
+						}
+					]
+				}
+			},
+			"not_found": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Organização não encontrada"
+				}
+			},
+			"not_found_message": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "A organização \""
+						},
+						{
+							"t": 9,
+							"v": "@"
+						},
+						{
+							"t": 4,
+							"k": "name"
+						},
+						{
+							"t": 3,
+							"v": "\" não existe no npm"
+						}
+					]
+				}
+			}
+		}
+	},
+	"user": {
+		"combobox": {
+			"add_to_org_hint": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "(também será adicionado à organização)"
+				}
+			},
+			"press_enter_to_add": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Pressione Enter para adicionar "
+						},
+						{
+							"t": 9,
+							"v": "@"
+						},
+						{
+							"t": 4,
+							"k": "username"
+						}
+					]
+				}
+			},
+			"default_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nome de usuário..."
+				}
+			},
+			"suggestions_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Sugestões de usuários"
+				}
+			}
+		},
+		"page": {
+			"packages_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pacotes"
+				}
+			},
+			"no_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum pacote público encontrado para"
+				}
+			},
+			"no_packages_hint": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Este usuário pode não existir ou não tem pacotes públicos."
+				}
+			},
+			"failed_to_load": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Falha ao carregar pacotes do usuário"
+				}
+			},
+			"no_match": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Nenhum pacote corresponde a \""
+						},
+						{
+							"t": 4,
+							"k": "query"
+						},
+						{
+							"t": 3,
+							"v": "\""
+						}
+					]
+				}
+			},
+			"filter_placeholder": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Filtrar "
+						},
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": " pacotes..."
+						}
+					]
+				}
+			}
+		},
+		"orgs_page": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Organizações"
+				}
+			},
+			"back_to_profile": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Voltar para o perfil"
+				}
+			},
+			"connect_required": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Conecte o CLI local para visualizar suas organizações."
+				}
+			},
+			"connect_hint_prefix": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Execute"
+				}
+			},
+			"connect_hint_suffix": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "para começar."
+				}
+			},
+			"own_orgs_only": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Você só pode visualizar suas próprias organizações."
+				}
+			},
+			"view_your_orgs": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Visualizar suas organizações"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando organizações..."
+				}
+			},
+			"empty": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhuma organização encontrada."
+				}
+			},
+			"empty_hint": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "As organizações são detectadas a partir de seus pacotes com escopo."
+				}
+			},
+			"count": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " Organização"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " Organizações"
+						}]
+					}]
+				}
+			},
+			"packages_count": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacote"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacotes"
+						}]
+					}]
+				}
+			}
+		}
+	},
+	"claim": { "modal": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Reivindicar Nome de Pacote"
+			}
+		},
+		"success": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pacote reivindicado!"
+			}
+		},
+		"success_detail": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 4,
+						"k": "name"
+					},
+					{
+						"t": 9,
+						"v": "@"
+					},
+					{
+						"t": 3,
+						"v": "0.0.0 foi publicado no npm."
+					}
+				]
+			}
+		},
+		"success_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Agora você pode publicar novas versões para este pacote usando npm publish."
+			}
+		},
+		"view_package": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ver Pacote"
+			}
+		},
+		"invalid_name": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Nome de pacote inválido:"
+			}
+		},
+		"available": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Este nome está disponível!"
+			}
+		},
+		"taken": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Este nome já foi reivindicado."
+			}
+		},
+		"similar_warning": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pacotes similares existem - npm pode rejeitar este nome:"
+			}
+		},
+		"related": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pacotes relacionados:"
+			}
+		},
+		"scope_warning_title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Considere usar um pacote com escopo em vez disso"
+			}
+		},
+		"scope_warning_text": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "Nomes de pacotes sem escopo são um recurso compartilhado. Reivindicar um nome apenas se você pretende publicar e manter um pacote. Para projetos pessoais ou organizacionais, use um nome com escopo como "
+					},
+					{
+						"t": 9,
+						"v": "@"
+					},
+					{
+						"t": 4,
+						"k": "username"
+					},
+					{
+						"t": 3,
+						"v": "/"
+					},
+					{
+						"t": 4,
+						"k": "name"
+					},
+					{
+						"t": 3,
+						"v": "."
+					}
+				]
+			}
+		},
+		"connect_required": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conecte ao conector local para reivindicar este nome de pacote."
+			}
+		},
+		"connect_button": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectar ao Conector"
+			}
+		},
+		"publish_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Isso publicará um pacote espaçador mínimo."
+			}
+		},
+		"preview_json": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Visualizar package.json"
+			}
+		},
+		"claim_button": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Reivindicar Nome de Pacote"
+			}
+		},
+		"publishing": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Publicando..."
+			}
+		},
+		"checking": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Verificando disponibilidade..."
+			}
+		},
+		"failed_to_check": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Falha ao verificar disponibilidade de nome"
+			}
+		},
+		"failed_to_claim": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Falha ao reivindicar pacote"
+			}
+		}
+	} },
+	"code": {
+		"files_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Arquivos"
+			}
+		},
+		"no_files": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Nenhum arquivo neste diretório"
+			}
+		},
+		"root": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "raiz"
+			}
+		},
+		"lines": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{
+					"t": 4,
+					"k": "count"
+				}, {
+					"t": 3,
+					"v": " linhas"
+				}]
+			}
+		},
+		"toggle_tree": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Alternar árvore de arquivos"
+			}
+		},
+		"close_tree": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Fechar árvore de arquivos"
+			}
+		},
+		"copy_link": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Copiar link"
+			}
+		},
+		"raw": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Bruto"
+			}
+		},
+		"view_raw": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ver arquivo bruto"
+			}
+		},
+		"file_too_large": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Arquivo muito grande para visualizar"
+			}
+		},
+		"file_size_warning": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{
+					"t": 4,
+					"k": "size"
+				}, {
+					"t": 3,
+					"v": " excede o limite de 500KB para destaque de sintaxe"
+				}]
+			}
+		},
+		"failed_to_load": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Falha ao carregar arquivo"
+			}
+		},
+		"unavailable_hint": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "O arquivo pode ser muito grande ou indisponível"
+			}
+		},
+		"version_required": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Versão é obrigatória para navegar pelo código"
+			}
+		},
+		"go_to_package": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Ir para pacote"
+			}
+		},
+		"loading_tree": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Carregando árvore de arquivos..."
+			}
+		},
+		"failed_to_load_tree": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Falha ao carregar arquivos para esta versão do pacote"
+			}
+		},
+		"back_to_package": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Voltar para pacote"
+			}
+		},
+		"table": {
+			"name": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome"
+				}
+			},
+			"size": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Tamanho"
+				}
+			}
+		},
+		"markdown_view_mode": {
+			"preview": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "visualizar"
+				}
+			},
+			"code": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "código"
+				}
+			}
+		},
+		"file_path": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Caminho do arquivo"
+			}
+		}
+	},
+	"badges": {
+		"provenance": {
+			"verified": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "verificado"
+				}
+			},
+			"verified_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Proveniência verificada"
+				}
+			},
+			"verified_via": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Verificado: publicado via "
+					}, {
+						"t": 4,
+						"k": "provider"
+					}]
+				}
+			}
+		},
+		"jsr": { "title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "também disponível no JSR"
+			}
+		} }
+	},
+	"filters": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Filtros"
+			}
+		},
+		"search": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar"
+			}
+		},
+		"search_scope": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Escopo de pesquisa"
+			}
+		},
+		"search_placeholder_name": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Filtrar por nome de pacote..."
+			}
+		},
+		"search_placeholder_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Filtrar por descrição..."
+			}
+		},
+		"search_placeholder_keywords": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Filtrar por palavras-chave..."
+			}
+		},
+		"search_placeholder_all": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar tudo ou usar name: desc: kw:"
+			}
+		},
+		"scope_name": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Nome"
+			}
+		},
+		"scope_name_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar apenas nomes de pacotes"
+			}
+		},
+		"scope_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Descrição"
+			}
+		},
+		"scope_description_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar apenas descrições"
+			}
+		},
+		"scope_keywords": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Palavras-chave"
+			}
+		},
+		"scope_keywords_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar apenas palavras-chave"
+			}
+		},
+		"scope_all": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Tudo"
+			}
+		},
+		"scope_all_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Pesquisar todos os campos, suporta operadores name: desc: kw:"
+			}
+		},
+		"weekly_downloads": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Downloads semanais"
+			}
+		},
+		"updated_within": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Atualizado em"
+			}
+		},
+		"security": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Segurança"
+			}
+		},
+		"keywords": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Palavras-chave"
+			}
+		},
+		"more_keywords": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "+"
+					},
+					{
+						"t": 4,
+						"k": "count"
+					},
+					{
+						"t": 3,
+						"v": " mais"
+					}
+				]
+			}
+		},
+		"clear_all": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Limpar tudo"
+			}
+		},
+		"remove_filter": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{
+					"t": 3,
+					"v": "Remover filtro "
+				}, {
+					"t": 4,
+					"k": "label"
+				}]
+			}
+		},
+		"chips": {},
+		"download_range": {
+			"any": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Qualquer"
+				}
+			},
+			"lt100": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "< 100"
+				}
+			},
+			"100_1k": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "100 - 1K"
+				}
+			},
+			"1k_10k": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "1K - 10K"
+				}
+			},
+			"10k_100k": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "10K - 100K"
+				}
+			},
+			"gt100k": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "> 100K"
+				}
+			}
+		},
+		"updated": {
+			"any": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Qualquer momento"
+				}
+			},
+			"week": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Semana passada"
+				}
+			},
+			"month": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mês passado"
+				}
+			},
+			"quarter": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Últimos 3 meses"
+				}
+			},
+			"year": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ano passado"
+				}
+			}
+		},
+		"security_options": {
+			"all": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Todos os pacotes"
+				}
+			},
+			"secure": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Sem avisos"
+				}
+			},
+			"insecure": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Com avisos"
+				}
+			}
+		},
+		"sort": {
+			"label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ordenar pacotes"
+				}
+			},
+			"toggle_direction": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Alternar direção de classificação"
+				}
+			},
+			"ascending": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ascendente"
+				}
+			},
+			"descending": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Descendente"
+				}
+			},
+			"relevance": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Relevância"
+				}
+			},
+			"downloads_week": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads/sem"
+				}
+			},
+			"downloads_day": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads/dia"
+				}
+			},
+			"downloads_month": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads/mês"
+				}
+			},
+			"downloads_year": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads/ano"
+				}
+			},
+			"name": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome"
+				}
+			},
+			"quality": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Qualidade"
+				}
+			},
+			"popularity": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Popularidade"
+				}
+			},
+			"maintenance": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Manutenção"
+				}
+			},
+			"score": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pontuação"
+				}
+			}
+		},
+		"columns": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Colunas"
+				}
+			},
+			"show": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mostrar colunas"
+				}
+			},
+			"reset": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Redefinir para padrões"
+				}
+			},
+			"coming_soon": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Em breve"
+				}
+			},
+			"name": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nome"
+				}
+			},
+			"version": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Versão"
+				}
+			},
+			"description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Descrição"
+				}
+			},
+			"downloads": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Downloads/sem"
+				}
+			},
+			"maintainers": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Mantenedores"
+				}
+			},
+			"keywords": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Palavras-chave"
+				}
+			},
+			"quality_score": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pontuação de qualidade"
+				}
+			},
+			"popularity_score": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pontuação de popularidade"
+				}
+			},
+			"maintenance_score": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pontuação de manutenção"
+				}
+			},
+			"combined_score": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pontuação combinada"
+				}
+			},
+			"security": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Segurança"
+				}
+			}
+		},
+		"view_mode": {
+			"label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Modo de exibição"
+				}
+			},
+			"cards": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Visualização de cartão"
+				}
+			},
+			"table": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Visualização de tabela"
+				}
+			}
+		},
+		"pagination": {
+			"mode_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Modo de paginação"
+				}
+			},
+			"infinite": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Infinita"
+				}
+			},
+			"paginated": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Paginada"
+				}
+			},
+			"items_per_page": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Itens por página"
+				}
+			},
+			"per_page": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " / página"
+					}]
+				}
+			},
+			"all_yolo": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Todos (YOLO)"
+				}
+			},
+			"showing": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 4,
+							"k": "start"
+						},
+						{
+							"t": 3,
+							"v": "-"
+						},
+						{
+							"t": 4,
+							"k": "end"
+						},
+						{
+							"t": 3,
+							"v": " de "
+						},
+						{
+							"t": 4,
+							"k": "total"
+						}
+					]
+				}
+			},
+			"previous": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Página anterior"
+				}
+			},
+			"next": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Próxima página"
+				}
+			},
+			"nav_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Paginação"
+				}
+			}
+		},
+		"count": {
+			"showing_filtered": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "filtered"
+							},
+							{
+								"t": 3,
+								"v": " de "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacote"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "filtered"
+							},
+							{
+								"t": 3,
+								"v": " de "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacotes"
+							}
+						]
+					}]
+				}
+			},
+			"showing_all": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacote"
+						}]
+					}, {
+						"t": 2,
+						"i": [{
+							"t": 4,
+							"k": "count"
+						}, {
+							"t": 3,
+							"v": " pacotes"
+						}]
+					}]
+				}
+			},
+			"showing_paginated": {
+				"t": 0,
+				"b": {
+					"t": 1,
+					"c": [{
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "pageSize"
+							},
+							{
+								"t": 3,
+								"v": " de "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacote"
+							}
+						]
+					}, {
+						"t": 2,
+						"i": [
+							{
+								"t": 4,
+								"k": "pageSize"
+							},
+							{
+								"t": 3,
+								"v": " de "
+							},
+							{
+								"t": 4,
+								"k": "count"
+							},
+							{
+								"t": 3,
+								"v": " pacotes"
+							}
+						]
+					}]
+				}
+			}
+		},
+		"table": {
+			"security_warning": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Aviso de segurança"
+				}
+			},
+			"secure": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Seguro"
+				}
+			},
+			"no_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum pacote encontrado"
+				}
+			}
+		}
+	},
+	"about": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Sobre"
+			}
+		},
+		"heading": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "sobre"
+			}
+		},
+		"meta_description": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "npmx é um navegador rápido e moderno para o registro npm. Uma melhor UX/DX para explorar pacotes npm."
+			}
+		},
+		"what_we_are": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "O que somos"
+				}
+			},
+			"better_ux_dx": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "melhor UX/DX"
+				}
+			},
+			"admin_ui": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "interface de administrador"
+				}
+			},
+			"description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "npmx é uma "
+						},
+						{
+							"t": 4,
+							"k": "betterUxDx"
+						},
+						{
+							"t": 3,
+							"v": " para o registro de pacotes npm e ferramentas. Fornecemos uma interface rápida e moderna para explorar pacotes, com recursos como modo escuro, navegação por teclado, navegação de código e conexões para registros alternativos como "
+						},
+						{
+							"t": 4,
+							"k": "jsr"
+						},
+						{
+							"t": 3,
+							"v": "."
+						}
+					]
+				}
+			},
+			"admin_description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Também visamos fornecer uma "
+						},
+						{
+							"t": 4,
+							"k": "adminUi"
+						},
+						{
+							"t": 3,
+							"v": " melhor para gerenciar seus pacotes, equipes e organizações — tudo do navegador, alimentado pelo seu CLI npm local."
+						}
+					]
+				}
+			}
+		},
+		"what_we_are_not": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "O que não somos"
+				}
+			},
+			"not_package_manager": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Não é um gerenciador de pacotes."
+				}
+			},
+			"not_registry": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Não é um registro."
+				}
+			},
+			"registry_description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Não hospedamos pacotes. Somos apenas uma forma melhor de navegá-los."
+				}
+			},
+			"package_managers_exist": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 4,
+							"k": "already"
+						},
+						{
+							"t": 3,
+							"v": " "
+						},
+						{
+							"t": 4,
+							"k": "people"
+						},
+						{
+							"t": 3,
+							"v": " "
+						},
+						{
+							"t": 4,
+							"k": "building"
+						},
+						{
+							"t": 3,
+							"v": " "
+						},
+						{
+							"t": 4,
+							"k": "really"
+						},
+						{
+							"t": 3,
+							"v": " "
+						},
+						{
+							"t": 4,
+							"k": "cool"
+						},
+						{
+							"t": 3,
+							"v": " "
+						},
+						{
+							"t": 4,
+							"k": "package"
+						},
+						{
+							"t": 3,
+							"v": " "
+						},
+						{
+							"t": 4,
+							"k": "managers"
+						},
+						{
+							"t": 3,
+							"v": "."
+						}
+					]
+				}
+			},
+			"words": {
+				"already": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Existem"
+					}
+				},
+				"people": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "já"
+					}
+				},
+				"building": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "pessoas"
+					}
+				},
+				"really": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "construindo"
+					}
+				},
+				"cool": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "realmente"
+					}
+				},
+				"package": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "incríveis"
+					}
+				},
+				"managers": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "gerenciadores de pacotes"
+					}
+				}
+			}
+		},
+		"contributors": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Contribuidores"
+				}
+			},
+			"description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "npmx é totalmente de código aberto, construído por uma comunidade incrível de contribuidores. Junte-se a nós e vamos construir juntos a experiência de navegação npm que sempre quisemos."
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando contribuidores..."
+				}
+			},
+			"error": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Falha ao carregar contribuidores"
+				}
+			},
+			"view_profile": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Ver perfil do GitHub de "
+					}, {
+						"t": 4,
+						"k": "name"
+					}]
+				}
+			}
+		},
+		"get_involved": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Envolva-se"
+				}
+			},
+			"contribute": {
+				"title": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Contribuir"
+					}
+				},
+				"description": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Ajude-nos a construir uma melhor experiência npm."
+					}
+				},
+				"cta": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Ver no GitHub"
+					}
+				}
+			},
+			"community": {
+				"title": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Junte-se à comunidade"
+					}
+				},
+				"description": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Converse, faça perguntas e compartilhe ideias."
+					}
+				},
+				"cta": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Junte-se ao Discord"
+					}
+				}
+			},
+			"follow": {
+				"title": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Mantenha-se atualizado"
+					}
+				},
+				"description": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Descubra as novidades sobre npmx."
+					}
+				},
+				"cta": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Siga no Bluesky"
+					}
+				}
+			}
+		}
+	},
+	"account_menu": {
+		"connect": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "conectar"
+			}
+		},
+		"account": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conta"
+			}
+		},
+		"npm_cli": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "npm CLI"
+			}
+		},
+		"atmosphere": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Atmosfera"
+			}
+		},
+		"npm_cli_desc": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Gerenciar pacotes e organizações"
+			}
+		},
+		"atmosphere_desc": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Recursos sociais e identidade"
+			}
+		},
+		"connect_npm_cli": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectar ao CLI npm"
+			}
+		},
+		"connect_atmosphere": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectar à Atmosfera"
+			}
+		},
+		"connecting": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectando..."
+			}
+		},
+		"ops": {
+			"t": 0,
+			"b": {
+				"t": 1,
+				"c": [{
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " op"
+					}]
+				}, {
+					"t": 2,
+					"i": [{
+						"t": 4,
+						"k": "count"
+					}, {
+						"t": 3,
+						"v": " ops"
+					}]
+				}]
+			}
+		}
+	},
+	"auth": { "modal": {
+		"title": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Atmosfera"
+			}
+		},
+		"connected_as": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 3,
+						"v": "Conectado como "
+					},
+					{
+						"t": 9,
+						"v": "@"
+					},
+					{
+						"t": 4,
+						"k": "handle"
+					}
+				]
+			}
+		},
+		"disconnect": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Desconectar"
+			}
+		},
+		"connect_prompt": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conecte-se com sua conta da Atmosfera"
+			}
+		},
+		"handle_label": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Nome de identificação"
+			}
+		},
+		"handle_placeholder": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "alice.npmx.social"
+			}
+		},
+		"connect": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectar"
+			}
+		},
+		"create_account": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Criar uma nova conta"
+			}
+		},
+		"connect_bluesky": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "Conectar com Bluesky"
+			}
+		},
+		"what_is_atmosphere": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "O que é uma conta da Atmosfera?"
+			}
+		},
+		"atmosphere_explanation": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [
+					{
+						"t": 4,
+						"k": "npmx"
+					},
+					{
+						"t": 3,
+						"v": " usa o "
+					},
+					{
+						"t": 4,
+						"k": "atproto"
+					},
+					{
+						"t": 3,
+						"v": " para alimentar muitos de seus recursos sociais, permitindo que os usuários possuam seus dados e usem uma conta para todos os aplicativos compatíveis. Depois de criar uma conta, você pode usar outros aplicativos como "
+					},
+					{
+						"t": 4,
+						"k": "bluesky"
+					},
+					{
+						"t": 3,
+						"v": " e "
+					},
+					{
+						"t": 4,
+						"k": "tangled"
+					},
+					{
+						"t": 3,
+						"v": " com a mesma conta."
+					}
+				]
+			}
+		}
+	} },
+	"header": {
+		"home": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "página inicial npmx"
+			}
+		},
+		"packages": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "pacotes"
+			}
+		},
+		"packages_dropdown": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Seus Pacotes"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando..."
+				}
+			},
+			"error": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Falha ao carregar pacotes"
+				}
+			},
+			"empty": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhum pacote encontrado"
+				}
+			},
+			"view_all": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver tudo"
+				}
+			}
+		},
+		"orgs": {
+			"t": 0,
+			"b": {
+				"t": 2,
+				"i": [{ "t": 3 }],
+				"s": "organizações"
+			}
+		},
+		"orgs_dropdown": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Suas Organizações"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando..."
+				}
+			},
+			"error": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Falha ao carregar organizações"
+				}
+			},
+			"empty": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Nenhuma organização encontrada"
+				}
+			},
+			"view_all": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Ver tudo"
+				}
+			}
+		}
+	},
+	"compare": {
+		"packages": {
+			"title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "comparar pacotes"
+				}
+			},
+			"tagline": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "compare pacotes npm lado a lado para ajudá-lo a escolher o certo."
+				}
+			},
+			"meta_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 3,
+							"v": "Comparar "
+						},
+						{
+							"t": 4,
+							"k": "packages"
+						},
+						{
+							"t": 3,
+							"v": " - npmx"
+						}
+					]
+				}
+			},
+			"meta_title_empty": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Comparar Pacotes - npmx"
+				}
+			},
+			"meta_description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Comparação lado a lado de "
+					}, {
+						"t": 4,
+						"k": "packages"
+					}]
+				}
+			},
+			"meta_description_empty": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Comparar pacotes npm lado a lado"
+				}
+			},
+			"section_packages": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pacotes"
+				}
+			},
+			"section_facets": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Aspectos"
+				}
+			},
+			"section_comparison": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Comparação"
+				}
+			},
+			"loading": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Carregando dados do pacote..."
+				}
+			},
+			"error": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Falha ao carregar dados do pacote. Por favor, tente novamente."
+				}
+			},
+			"empty_title": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Selecione pacotes para comparar"
+				}
+			},
+			"empty_description": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pesquise e adicione pelo menos 2 pacotes acima para ver uma comparação lado a lado de suas métricas."
+				}
+			}
+		},
+		"selector": {
+			"search_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pesquisar por pacotes"
+				}
+			},
+			"search_first": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pesquisar por um pacote..."
+				}
+			},
+			"search_add": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Adicionar outro pacote..."
+				}
+			},
+			"searching": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Pesquisando..."
+				}
+			},
+			"remove_package": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Remover "
+					}, {
+						"t": 4,
+						"k": "package"
+					}]
+				}
+			},
+			"packages_selected": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [
+						{
+							"t": 4,
+							"k": "count"
+						},
+						{
+							"t": 3,
+							"v": "/"
+						},
+						{
+							"t": 4,
+							"k": "max"
+						},
+						{
+							"t": 3,
+							"v": " pacotes selecionados."
+						}
+					]
+				}
+			},
+			"add_hint": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Adicione pelo menos 2 pacotes para comparar."
+				}
+			}
+		},
+		"no_dependency": {},
+		"facets": {
+			"group_label": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Aspectos de comparação"
+				}
+			},
+			"all": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "todos"
+				}
+			},
+			"none": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "nenhum"
+				}
+			},
+			"coming_soon": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Em breve"
+				}
+			},
+			"select_all": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Selecionar todos os aspectos"
+				}
+			},
+			"deselect_all": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{ "t": 3 }],
+					"s": "Desselecionar todos os aspectos"
+				}
+			},
+			"select_category": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Selecionar todos os aspectos "
+					}, {
+						"t": 4,
+						"k": "category"
+					}]
+				}
+			},
+			"deselect_category": {
+				"t": 0,
+				"b": {
+					"t": 2,
+					"i": [{
+						"t": 3,
+						"v": "Desselecionar todos os aspectos "
+					}, {
+						"t": 4,
+						"k": "category"
+					}]
+				}
+			},
+			"categories": {
+				"performance": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Performance"
+					}
+				},
+				"health": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Saúde"
+					}
+				},
+				"compatibility": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Compatibilidade"
+					}
+				},
+				"security": {
+					"t": 0,
+					"b": {
+						"t": 2,
+						"i": [{ "t": 3 }],
+						"s": "Segurança e Conformidade"
+					}
+				}
+			},
+			"items": {
+				"packageSize": {},
+				"installSize": {},
+				"dependencies": {},
+				"totalDependencies": {},
+				"downloads": {},
+				"totalLikes": {},
+				"lastUpdated": {},
+				"deprecated": {},
+				"engines": {},
+				"types": {},
+				"moduleFormat": {},
+				"license": {},
+				"vulnerabilities": {}
+			},
+			"values": {},
+			"trends": {}
+		}
+	},
+	"privacy_policy": {
+		"cookies": {
+			"what_are": {},
+			"types": {},
+			"local_storage": {},
+			"management": {}
+		},
+		"analytics": {},
+		"authenticated": {},
+		"data_retention": {},
+		"your_rights": {},
+		"contact": {},
+		"changes": {}
+	}
+};
+
+export { pt_BR_default as default };
+//# sourceMappingURL=pt-BR-Bj5VUlyO.mjs.map

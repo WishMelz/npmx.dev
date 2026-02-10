@@ -1,0 +1,1 @@
+import{Bt as e,Ft as t,Qt as n}from"./9xyyRr2l.js";import{t as r}from"./D8YlQXUi.js";var i=e({__name:`[version]`,setup(e){return(e,r)=>(n(),t(`div`))}});export{i as default};

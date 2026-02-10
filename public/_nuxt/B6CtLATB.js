@@ -1,0 +1,1 @@
+import{gt as e,pt as t,vn as n}from"./9xyyRr2l.js";function r(r={}){let i=e(),a=t().path||`/`;if(i.payload.path===a){let e=n(!1);e.value=!0}}function i(e,t={},n={}){return r({...n,component:e,props:t})}export{i as t};
