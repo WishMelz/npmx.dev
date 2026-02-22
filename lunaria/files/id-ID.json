@@ -257,9 +257,7 @@
       "items": {}
     },
     "downloads": {
-      "title": "Unduhan Mingguan",
-      "analyze": "Analisis unduhan",
-      "modal_title": "Unduhan"
+      "title": "Unduhan Mingguan"
     },
     "install_scripts": {
       "title": "Skrip Instalasi",
@@ -688,6 +686,7 @@
         "managers": "yang keren"
       }
     },
+    "team": {},
     "contributors": {
       "title": "Kontributor",
       "description": "npmx sepenuhnya sumber terbuka (open source), dibangun oleh komunitas kontributor yang luar biasa. Bergabunglah dengan kami dan mari bangun pengalaman menjelajah npm yang selalu kita inginkan, bersama-sama.",
@@ -833,5 +832,11 @@
     "your_rights": {},
     "contact": {},
     "changes": {}
+  },
+  "a11y": {
+    "approach": {},
+    "measures": {},
+    "limitations": {},
+    "contact": {}
   }
 }

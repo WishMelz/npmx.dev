@@ -74,7 +74,7 @@
     "theme_system": "সিস্টেম",
     "language": "ভাষা",
     "help_translate": "npmx অনুবাদে সাহায্য করুন",
-    "accent_colors": "এক্সেন্ট রংগ",
+    "accent_colors": "এক্সেন্ট রং",
     "clear_accent": "এক্সেন্ট রং সাফ করুন",
     "translation_progress": "অনুবাদের অগ্রগতি"
   },
@@ -271,9 +271,7 @@
       "items": {}
     },
     "downloads": {
-      "title": "সাপ্তাহিক ডাউনলোড",
-      "analyze": "ডাউনলোড বিশ্লেষণ করুন",
-      "modal_title": "ডাউনলোড"
+      "title": "সাপ্তাহিক ডাউনলোড"
     },
     "install_scripts": {
       "title": "ইনস্টল স্ক্রিপ্ট",
@@ -703,6 +701,7 @@
         "managers": "ম্যানেজার"
       }
     },
+    "team": {},
     "contributors": {
       "title": "অবদানকারী",
       "description": "npmx সম্পূর্ণ ওপেন সোর্স, অসাধারণ অবদানকারীদের কমিউনিটি দ্বারা নির্মিত। আমাদের সাথে যোগ দিন এবং একসাথে আমাদের সবসময় চাওয়া npm ব্রাউজিং অভিজ্ঞতা তৈরি করি।",
@@ -848,5 +847,11 @@
     "your_rights": {},
     "contact": {},
     "changes": {}
+  },
+  "a11y": {
+    "approach": {},
+    "measures": {},
+    "limitations": {},
+    "contact": {}
   }
 }
