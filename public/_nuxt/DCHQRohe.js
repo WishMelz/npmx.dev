@@ -1,0 +1,1 @@
+import{H as e,ot as t,yt as n,z as r}from"./BLt7TXlb.js";function i(i,a){let o=n(!1),s=null;function c(){s&&=(s.disconnect(),null)}async function l(){c(),await r();let e=i.value;e&&(s=new ResizeObserver(e=>{o.value=e[0].contentRect.width<a.value}),s.observe(e))}return t([i,a],()=>{l()},{immediate:!0}),e(c),{isResponsive:o,start:l,stop:c}}export{i as t};

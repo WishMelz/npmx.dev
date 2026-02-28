@@ -1,0 +1,1 @@
+import{G as e,yt as t,z as n}from"./BLt7TXlb.js";function r({config:r}){let i=t(null),a=r?.text||`Chart visualization`,o=r?.subtitle?.text||``;return e(()=>{n(()=>{i.value&&(i.value.setAttribute(`aria-label`,`${a}${o?`. ${o}`:``}`),i.value.setAttribute(`role`,`img`),i.value.setAttribute(`aria-live`,`polite`))})}),{svgRef:i}}export{r as t};

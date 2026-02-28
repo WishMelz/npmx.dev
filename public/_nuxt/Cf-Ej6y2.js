@@ -1,0 +1,1 @@
+import{yt as e}from"./BLt7TXlb.js";import{z as t}from"./CreLCcZP.js";import{d as n}from"./Cr_GQgS6.js";function r(r={}){let i=n(),a=t().path||`/`;if(i.payload.path===a){let t=e(!1);t.value=!0}}function i(e,t={},n={}){return r({...n,component:e,props:t})}export{i as t};

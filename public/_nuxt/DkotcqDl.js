@@ -1,0 +1,1 @@
+import{it as e,rt as t}from"./CreLCcZP.js";function n(n){let r=t(n).toLowerCase();return r=e(r),r=r.replace(/^www\./,``).replace(/#.*$/,``).replace(/\/tree\/(head|main|master)(\/|$)/i,`/`),e(r)}function r(e,t){return n(e)===n(t)}function i(e){return e?typeof e==`string`?e:i(e[0]):``}export{i as n,r as t};

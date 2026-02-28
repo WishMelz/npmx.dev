@@ -1,0 +1,1 @@
+import{G as e,St as t}from"./BLt7TXlb.js";import{B as n}from"./CreLCcZP.js";function r(){let r=t(!1),i=n();return e(()=>{r.value=i.options.history.state.back!==null}),r}export{r as t};

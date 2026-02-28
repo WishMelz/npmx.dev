@@ -1,0 +1,1 @@
+var e={"&amp;":`&`,"&lt;":`<`,"&gt;":`>`,"&quot;":`"`,"&#39;":`'`,"&apos;":`'`,"&nbsp;":`\xA0`};function t(t){return t.replace(/&(?:amp|lt|gt|quot|apos|nbsp|#39);/g,t=>e[t]||t)}function n(e){let t=/<[^>]*>/g,n=e,r;do r=n,n=n.replace(t,``);while(n!==r);return n}export{n,t};

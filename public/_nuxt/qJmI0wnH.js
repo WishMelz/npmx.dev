@@ -1,0 +1,1 @@
+const e={autocapitalize:`off`,autocomplete:`off`,autocorrect:`off`,spellcheck:`false`};function t(e){return!e||!(e instanceof HTMLElement)?!1:e.tagName===`INPUT`||e.tagName===`TEXTAREA`||e.isContentEditable}function n(e,t){return e.key?.toLowerCase()===t.toLowerCase()&&!e.altKey&&!e.ctrlKey&&!e.metaKey&&!e.shiftKey}const r=`9999-12-31`;export{e as i,t as n,n as r,r as t};

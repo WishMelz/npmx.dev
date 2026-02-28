@@ -1,0 +1,1 @@
+import{Dt as e,J as t,Nt as n,w as r}from"./BLt7TXlb.js";var i=`3.15.8`,a={"aria-hidden":`true`},o={__name:`PackageVersion`,setup(o){return(o,s)=>(t(),r(`desc`,a,`Composed with Vue Data UI `+n(e(i)),1))}};export{o as default};

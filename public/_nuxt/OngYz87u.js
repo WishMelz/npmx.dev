@@ -1,0 +1,1 @@
+import{J as e,w as t}from"./BLt7TXlb.js";import{t as n}from"./Bi22IuVY.js";var r={},i={class:`bg-bg-elevated rounded animate-skeleton-pulse`};function a(n,r){return e(),t(`div`,i)}var o=Object.assign(n(r,[[`render`,a]]),{__name:`SkeletonBlock`});export{o as t};
