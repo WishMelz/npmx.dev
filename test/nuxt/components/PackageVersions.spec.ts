@@ -1,7 +1,7 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest'
 import { mountSuspended } from '@nuxt/test-utils/runtime'
+import type { DOMWrapper } from '@vue/test-utils'
 import PackageVersions from '~/components/Package/Versions.vue'
-import type { SlimVersion } from '#shared/types'
 
 // Mock the fetchAllPackageVersions function
 const mockFetchAllPackageVersions = vi.fn()
@@ -25,6 +25,18 @@ function createVersion(
     tags: undefined,
     ...(options.hasProvenance ? { hasProvenance: true } : {}),
   } as SlimVersion
+}
+
+/**
+ * Predicate for filtering anchor elements to version links only,
+ * excluding anchor links, external links, and action buttons.
+ */
+function isVersionLink(a: DOMWrapper<Element>): boolean {
+  return (
+    !a.attributes('href')?.startsWith('#') &&
+    a.attributes('target') !== '_blank' &&
+    !a.attributes('data-testid')?.includes('view-all-versions')
+  )
 }
 
 describe('PackageVersions', () => {
@@ -73,10 +85,8 @@ describe('PackageVersions', () => {
         },
       })
 
-      // Find version links (exclude anchor links that start with # and external links)
-      const versionLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      // Find version links (exclude anchor links, external links, and action buttons)
+      const versionLinks = component.findAll('a').filter(isVersionLink)
       expect(versionLinks.length).toBeGreaterThan(0)
       expect(versionLinks[0]?.text()).toBe('2.0.0')
     })
@@ -93,10 +103,8 @@ describe('PackageVersions', () => {
         },
       })
 
-      // Find version links (exclude anchor links that start with # and external links)
-      const versionLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      // Find version links (exclude anchor links, external links, and action buttons)
+      const versionLinks = component.findAll('a').filter(isVersionLink)
       expect(versionLinks.length).toBeGreaterThan(0)
       expect(versionLinks[0]?.text()).toBe('1.0.0')
     })
@@ -233,9 +241,7 @@ describe('PackageVersions', () => {
       })
 
       // Find version links (exclude anchor links that start with # and external links)
-      const versionLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      const versionLinks = component.findAll('a').filter(isVersionLink)
       const versions = versionLinks.map(l => l.text())
       // Should be sorted by version descending
       expect(versions[0]).toBe('2.0.0')
@@ -256,9 +262,7 @@ describe('PackageVersions', () => {
       })
 
       // Find version links (exclude anchor links that start with # and external links)
-      const versionLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      const versionLinks = component.findAll('a').filter(isVersionLink)
       expect(versionLinks.length).toBeGreaterThan(0)
       expect(versionLinks[0]?.classes()).toContain('text-red-800')
     })
@@ -276,9 +280,7 @@ describe('PackageVersions', () => {
       })
 
       // Find version links (exclude anchor links that start with # and external links)
-      const versionLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      const versionLinks = component.findAll('a').filter(isVersionLink)
       expect(versionLinks.length).toBeGreaterThan(0)
       expect(versionLinks[0]?.attributes('title')).toContain('deprecated')
     })
@@ -608,9 +610,7 @@ describe('PackageVersions', () => {
       })
 
       // Count visible version links (excluding anchor links that start with # and external links)
-      const visibleLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      const visibleLinks = component.findAll('a').filter(isVersionLink)
       // Should have max 10 visible links in the main section
       expect(visibleLinks.length).toBeLessThanOrEqual(10)
     })
@@ -1014,9 +1014,7 @@ describe('PackageVersions', () => {
       expect(text).toContain('2.1.0')
       // 3.0.0 does NOT match ^2.0.0
       // Find version links (exclude anchor and external links)
-      const versionLinks = component
-        .findAll('a')
-        .filter(a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank')
+      const versionLinks = component.findAll('a').filter(isVersionLink)
       const versions = versionLinks.map(l => l.text())
       expect(versions).not.toContain('3.0.0')
     })
@@ -1117,14 +1115,101 @@ describe('PackageVersions', () => {
 
       // 2.0.0 should not appear in the expanded list
       await vi.waitFor(() => {
-        const versionLinks = component
-          .findAll('a')
-          .filter(
-            a => !a.attributes('href')?.startsWith('#') && a.attributes('target') !== '_blank',
-          )
+        const versionLinks = component.findAll('a').filter(isVersionLink)
         const versions = versionLinks.map(l => l.text())
         expect(versions).not.toContain('2.0.0')
       })
+    })
+
+    it('loads all versions when a valid semver filter is entered', async () => {
+      mockFetchAllPackageVersions.mockResolvedValue([
+        { version: '3.5.0', time: '2024-04-01T00:00:00.000Z', hasProvenance: false },
+        { version: '3.4.0', time: '2024-03-01T00:00:00.000Z', hasProvenance: false },
+        { version: '3.3.0', time: '2024-02-01T00:00:00.000Z', hasProvenance: false },
+        { version: '2.0.0', time: '2024-01-15T00:00:00.000Z', hasProvenance: false },
+        { version: '1.0.0', time: '2024-01-01T00:00:00.000Z', hasProvenance: false },
+      ])
+
+      // Only provide latest in props (simulating initial SSR payload)
+      const component = await mountSuspended(PackageVersions, {
+        props: {
+          packageName: 'test-package',
+          versions: {
+            '3.5.0': createVersion('3.5.0'),
+          },
+          distTags: { latest: '3.5.0' },
+          time: { '3.5.0': '2024-04-01T00:00:00.000Z' },
+        },
+      })
+
+      // Filter for a version in the SAME major group as latest (claimed by the tag)
+      const input = component.find('input[type="text"]')
+      await input.setValue('~3.4.0')
+
+      // Should trigger loading all versions
+      await vi.waitFor(() => {
+        expect(mockFetchAllPackageVersions).toHaveBeenCalledWith('test-package')
+      })
+
+      // After loading, 3.4.0 should appear as an auto-expanded child of the latest tag
+      await vi.waitFor(() => {
+        const versionLinks = component.findAll('a').filter(isVersionLink)
+        const versions = versionLinks.map(l => l.text())
+        expect(versions).toContain('3.4.0')
+      })
+    })
+
+    it('does not load all versions for invalid semver filter', async () => {
+      const component = await mountSuspended(PackageVersions, {
+        props: {
+          packageName: 'test-package',
+          versions: {
+            '3.0.0': createVersion('3.0.0'),
+          },
+          distTags: { latest: '3.0.0' },
+          time: { '3.0.0': '2024-04-01T00:00:00.000Z' },
+        },
+      })
+
+      const input = component.find('input[type="text"]')
+      await input.setValue('not-a-range!!!')
+
+      // Should NOT trigger loading
+      expect(mockFetchAllPackageVersions).not.toHaveBeenCalled()
+    })
+
+    it('only fetches versions once across multiple filter changes', async () => {
+      mockFetchAllPackageVersions.mockResolvedValue([
+        { version: '3.0.0', time: '2024-04-01T00:00:00.000Z', hasProvenance: false },
+        { version: '2.0.0', time: '2024-02-01T00:00:00.000Z', hasProvenance: false },
+        { version: '1.0.0', time: '2024-01-01T00:00:00.000Z', hasProvenance: false },
+      ])
+
+      const component = await mountSuspended(PackageVersions, {
+        props: {
+          packageName: 'test-package',
+          versions: {
+            '3.0.0': createVersion('3.0.0'),
+          },
+          distTags: { latest: '3.0.0' },
+          time: { '3.0.0': '2024-04-01T00:00:00.000Z' },
+        },
+      })
+
+      const input = component.find('input[type="text"]')
+
+      // First valid filter triggers fetch
+      await input.setValue('^1.0.0')
+      await vi.waitFor(() => {
+        expect(mockFetchAllPackageVersions).toHaveBeenCalledTimes(1)
+      })
+
+      // Subsequent filter changes should NOT fetch again
+      await input.setValue('^2.0.0')
+      await input.setValue('~3.0.0')
+      await input.setValue('>=1.0.0')
+
+      expect(mockFetchAllPackageVersions).toHaveBeenCalledTimes(1)
     })
 
     it('filters other major version groups', async () => {

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import type { CompareResponse, FileChange } from '#shared/types'
 import { packageRoute } from '~/utils/router'
 
 const props = defineProps<{
@@ -94,7 +93,13 @@ function handleFileSelect(file: FileChange) {
               <span class="text-yellow-500">~{{ compare.stats.filesModified }}</span>
             </span>
             <span v-if="compare.dependencyChanges.length > 0" class="text-fg-muted">
-              {{ $t('compare.deps_count', { count: compare.dependencyChanges.length }) }}
+              {{
+                $t(
+                  'compare.deps_count',
+                  { count: compare.dependencyChanges.length },
+                  compare.dependencyChanges.length,
+                )
+              }}
             </span>
           </div>
         </div>

@@ -1,12 +1,10 @@
 import type { RemovableRef } from '@vueuse/core'
 import { useLocalStorage } from '@vueuse/core'
-import { ACCENT_COLORS } from '#shared/utils/constants'
+import { ACCENT_COLORS, type AccentColorId } from '#shared/utils/constants'
 import type { LocaleObject } from '@nuxtjs/i18n'
 import { BACKGROUND_THEMES } from '#shared/utils/constants'
 
 type BackgroundThemeId = keyof typeof BACKGROUND_THEMES
-
-type AccentColorId = keyof typeof ACCENT_COLORS.light
 
 /** Available search providers */
 export type SearchProvider = 'npm' | 'algolia'
@@ -25,10 +23,14 @@ export interface AppSettings {
   preferredBackgroundTheme: BackgroundThemeId | null
   /** Hide platform-specific packages (e.g., @scope/pkg-linux-x64) from search results */
   hidePlatformPackages: boolean
+  /** Enable weekly download graph pulse looping animation */
+  enableGraphPulseLooping: boolean
   /** User-selected locale */
   selectedLocale: LocaleObject['code'] | null
   /** Search provider for package search */
   searchProvider: SearchProvider
+  /** Show search results as you type */
+  instantSearch: boolean
   /** Enable/disable keyboard shortcuts */
   keyboardShortcuts: boolean
   /** Connector preferences */
@@ -38,12 +40,12 @@ export interface AppSettings {
   }
   sidebar: {
     collapsed: string[]
-    animateSparkline: boolean
   }
   chartFilter: {
     averageWindow: number
     smoothingTau: number
     anomaliesFixed: boolean
+    predictionPoints: number
   }
 }
 
@@ -52,21 +54,23 @@ const DEFAULT_SETTINGS: AppSettings = {
   includeTypesInInstall: true,
   accentColorId: null,
   hidePlatformPackages: true,
+  enableGraphPulseLooping: false,
   selectedLocale: null,
   preferredBackgroundTheme: null,
   searchProvider: import.meta.test ? 'npm' : 'algolia',
+  instantSearch: true,
   keyboardShortcuts: true,
   connector: {
     autoOpenURL: false,
   },
   sidebar: {
     collapsed: [],
-    animateSparkline: true,
   },
   chartFilter: {
     averageWindow: 0,
     smoothingTau: 1,
     anomaliesFixed: true,
+    predictionPoints: 4,
   },
 }
 
