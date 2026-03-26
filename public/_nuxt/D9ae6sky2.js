@@ -1,0 +1,1 @@
+import{G as e,H as t,yt as n}from"./kUfz05QF.js";function r(){let r=n(!1);return e(()=>{let e=window.matchMedia(`(prefers-reduced-motion: reduce)`),n=()=>{r.value=e.matches};n(),e.addEventListener(`change`,n),t(()=>{e.removeEventListener(`change`,n)})}),r}export{r as t};

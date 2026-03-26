@@ -1,0 +1,1 @@
+import{t as e}from"./SPoA-XMl.js";export{e as default};

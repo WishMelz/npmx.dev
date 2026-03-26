@@ -1,0 +1,1 @@
+import{J as e,w as t}from"./kUfz05QF.js";import{t as n}from"./BZu0fuKn.js";var r={},i={class:`inline-block bg-bg-elevated rounded animate-skeleton-pulse`};function a(n,r){return e(),t(`span`,i)}var o=Object.assign(n(r,[[`render`,a]]),{__name:`SkeletonInline`});export{o as t};

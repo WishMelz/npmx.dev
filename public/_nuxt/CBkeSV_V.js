@@ -1,0 +1,1 @@
+function e(){return`ontouchstart`in window||navigator.maxTouchPoints>0}export{e as t};

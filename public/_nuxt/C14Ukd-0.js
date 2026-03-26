@@ -1,0 +1,1 @@
+import{A as e,J as t,w as n}from"./kUfz05QF.js";import"./5OyWlrsV.js";import{t as r}from"./DMC6qs01.js";var i=e({__name:`[version]`,setup(e){return r({name:`package-version`}),(e,r)=>(t(),n(`div`))}});export{i as default};

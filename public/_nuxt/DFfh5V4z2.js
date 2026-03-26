@@ -1,0 +1,1 @@
+import{F as e,Ot as t}from"./BFpFzIqC2.js";function n({defaultConfig:n,userConfig:r}){return Object.keys(r||{}).length?t(e({defaultConfig:n,userConfig:r})):n}export{n as t};

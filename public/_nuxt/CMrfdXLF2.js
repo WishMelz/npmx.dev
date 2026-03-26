@@ -1,0 +1,1 @@
+import{A as e,J as t,w as n}from"./kUfz05QF.js";import"./5OyWlrsV.js";import{t as r}from"./DMC6qs01.js";var i=e({__name:`index`,setup(e){return r({name:`package`,scrollMargin:200}),(e,r)=>(t(),n(`div`))}});export{i as default};
